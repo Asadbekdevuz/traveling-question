@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: 0.8s ease-in-out;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/1.jpg");
+}
+
+.box {
+  margin: auto;
+  width: 600px;
+  padding: 40px 20px;
+  border-radius: 15px;
+  
+
+}
+.box:hover{
+  padding-bottom: 500px;
+  background-image: url("../img/qatar-airways-qatar-airways-plane-1172613.png");
+  background-repeat: no-repeat;
+  background-size: 600px 200px;
+  background-position: center;
+  transform: rotate(360deg);  
+}
+
+.box__title {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+  color: blue;
+}
+
+.box__paragraph {
+  margin-top: 4px;
+  text-align: center;
+  color: red;
+  font-weight: 800;
+}
+
+.box__form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box__input {
+  padding: 15px 10px;
+  border-radius: 8px;
+  border: 2px solid blue;
+  width: 350px;
+}
+
+.box__button {
+  margin-left: 5px;
+  padding: 15px 10px;
+  border: 2px solid blue;
+  background-color: blue;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.box__button:hover {
+  background-color: transparent;
+  color: blue;
+}
+
+.box__text {
+  color: rgb(0, 193, 0);
+}
+
+.box__input::placeholder{
+  color: blue;
+  font-weight: 600;
+
+}
